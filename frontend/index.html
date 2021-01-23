@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Digit Recognizer</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  </script>
+  <!-- bootstrap file -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+
+  <!-- css stylssheet -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- jquery ui -->
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/start/jquery-ui.css">
+</head>
+
+<body>
+
+  <!-- heading of the body -->
+  <div class="header" id="header">
+    Digit Recognizer
+  </div>
+
+  <!-- main container -->
+  <div class="inputContainer">
+    <!-- color -->
+    <div class="input" id="colorInput">
+      <input type="color" list id="paintColor">
+    </div>
+    <!-- width of the color -->
+    <div class="input" id="thicknessInput">
+      <!-- circle correspondig to slider -->
+      <div class="" id="circle">
+      </div>
+    </div>
+    <!-- slider for width -->
+    <div class="input">
+      <!-- slider here -->
+      <div class="" id="slider">
+      </div>
+    </div>
+  </div>
+
+
+  <!-- sceenshot container -->
+    <!-- \canvas contaier  -->
+    <div id="container" class="specific">
+      <canvas id="paint" width="500" height="400"></canvas>
+    </p>  </p>  </p>
+    <button type="button" id="screenshot" class="btn btn-default">Process Digit</button>
+    </div>
+
+
+<!-- end options -->
+  <div class="inputContainer2">
+    <!-- erase -->
+    <div class="input2">
+      <span id="erase" class="button btn btn-default">Erase</span>
+    </div>
+    <!-- save -->
+    <div class="input2">
+      <span id="save" class="button btn btn-default">Save</span>
+    </div>
+    <!-- reset -->
+    <div class="input2">
+      <span id="reset" class="button btn btn-default"> Reset</span>
+    </div>
+  </div>
+</body>
+
+
+<!-- canvas2image -->
+<script src="https://superal.github.io/canvas2image/canvas2image.js"></script>
+<!-- cdn for canvas2 html -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.5.0-beta4/html2canvas.min.js" integrity="sha512-OqcrADJLG261FZjar4Z6c4CfLqd861A3yPNMb+vRQ2JwzFT49WT4lozrh3bcKxHxtDTgNiqgYbEUStzvZQRfgQ==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.5.0-beta4/html2canvas.js" integrity="sha512-5XAS7mhslf6oGjLxzmY4iYfFwDGf8G1ZBeWdymR/+y8ZCvPWwI3Ff+WrS+kabqYdIEwYaLEnJhsuymZxgrneQg==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.5.0-beta4/html2canvas.svg.js" integrity="sha512-2ozzXGLAvGlXy+bAjqirhgraJB/Y6KD0iTeSKTu2Ko7re3W6p2/pJmO0mQ3JOrwcfgwstq0odMG1Q17ho0T1sg==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.5.0-beta4/html2canvas.svg.min.js" integrity="sha512-cX+p7MRIKvgo59Ap3QDj2ymdc7XFFCEJ71X+nWPT+3UxNylm/ztqgDJTbko2atIo4jiozj0dUpYb+xfv1bCl8g==" crossorigin="anonymous"></script>
+  <!-- jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- jquery Ui -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <!-- jquery script -->
+  <script src="app.js" charset="utf-8"></script>
+  <!-- bootstrap javascript file -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</html>

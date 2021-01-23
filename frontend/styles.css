@@ -1,0 +1,97 @@
+body {
+  background-image: url("https://wallpaperaccess.com/full/1398312.jpg");
+  background-size: cover;
+  background-position:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+}
+
+#header {
+  color: white;
+  /* background: -webkit-linear-gradient(white, rgba(67, 69, 228, .9));
+  background: -moz-linear-gradient(white, rgba(67, 69, 228, .9));
+  background: -o-linear-gradient(white, rgba(67, 69, 228, .9));
+  background: -ms-linear-gradient(white, rgba(67, 69, 228, .9)); */
+  height: 70px;
+  width: 500px;
+  margin: 10px auto;
+  font-size: 3em;
+  line-height: 80px;
+}
+
+#circle {
+  height: 3px;
+  width: 3px;
+  border-radius: 50%;
+  background-color: white;
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transform: -webkit-translate(-50%, -50%);
+  transform: -o-translate(-50%, -50%);
+  transform: -moz-translate(-50%, -50%);
+  transform: -ms-translate(-50%, -50%);
+}
+#slider {
+  margin: 10px auto;
+}
+#thicknessInput{
+  position: relative;
+}
+.inputContainer {
+  width: 200px;
+  margin: 0px auto;
+  position: relative;
+}
+#container{
+width:500px;
+height:400px;
+border: 1px solid rgba(122,174,229,0.5);
+margin:auto;
+}
+
+#paint{
+  background-color: white;
+  cursor:crosshair;
+}
+
+.inputContainer2{
+  width:399px;
+  margin:0 auto;
+}
+.input2{
+  width:133px;
+  color:#5bb4e7;
+  font-size: 1.3rem;
+  float: left;
+}
+
+
+#screenshot{
+  margin-top: 30px;
+}
+
+.button:hover{
+  color:white;
+  background:-webkit-linear-gradient(white, rgb(160, 160, 160));
+  background:-moz-linear-gradient(white, rgb(160, 160, 160));
+  background:-o-linear-gradient(white,rgb(160, 160, 160));
+  background:-ms-linear-gradient(white, rgb(160, 160, 160))
+}
+.button:active{
+top:4px;
+}
+.input {
+  height: 30px;
+  font-size: 1.3em;
+  position: relative;
+}
+.eraseMode{
+  background-color: red;
+  color:white;
+}
